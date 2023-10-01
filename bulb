@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P>JS CAN CHANGE HTML ATTRIBUTE SRC VALUE OF IMG TAG</P>
+ <button type="button" onclick="document.getElementById('image').src='Screenshot (6).png'">Face glow</button> <br><br>
+   <button type="button" onclick="document.getElementById('image').src='Screenshot (7).png'">Face dim</button> <br><br>
+   <img id="image" src="Screenshot (7).png" style="width: 100px"><br><br>
+</body>
+</html>
